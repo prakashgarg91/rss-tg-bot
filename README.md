@@ -42,6 +42,7 @@ Configure the following environment variables:
    ```
 
 ### Heroku Deployment
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/prakashgarg91/YOUR_REPO_NAME)
 
 1. Create a Heroku account if you don't have one
 2. Install the Heroku CLI
