@@ -428,4 +428,25 @@ def help_command(update: Update, context: CallbackContext) -> None:
         
         "*Feed Management:*\n"
         "/addfeed - Add a new RSS feed to monitor\n"
-        "/listfeeds - List all active"
+        "/listfeeds - List all active feeds\n"
+        "/removefeed - Remove a feed\n"
+        "/editfeed - Edit a feed's settings\n\n"
+        
+        "*Testing & Monitoring:*\n"
+        "/testfeed - Test a feed without posting\n"
+        "/fetchnow - Fetch and post updates from a feed immediately\n"
+        "/status - Check bot status and next scheduled runs\n\n"
+        
+        "*Admin Commands:*\n"
+        "/addadmin - Add a new admin user\n\n"
+        
+        "For more help, contact the bot developer."
+    )
+    
+    keyboard = [
+        [InlineKeyboardButton("Add Feed", callback_data="add_feed")],
+        [InlineKeyboardButton("List Feeds", callback_data="list_feeds")]
+    ]
+    reply_markup = InlineKeyboardMarkup(keyboard)
+    
+    update.message.reply_text(help_text, reply_markup=reply_markup, parse_mode=ParseMode.MARKDOWN)
