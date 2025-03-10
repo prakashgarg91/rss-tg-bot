@@ -1,3 +1,9 @@
+# Add this at the very top of your app.py file
+try:
+    import fix_feedparser
+except ImportError:
+    pass
+    
 import os
 import logging
 import json
