@@ -428,4 +428,4 @@ def help_command(update: Update, context: CallbackContext) -> None:
         
         "*Feed Management:*\n"
         "/addfeed - Add a new RSS feed to monitor\n"
-        "/listfeeds - List all active
+        "/listfeeds - List all active"
