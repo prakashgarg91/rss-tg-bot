@@ -1,7 +1,7 @@
 {
   "name": "RSS to Telegram Bot",
   "description": "A bot that automatically posts RSS feed updates to Telegram channels",
-  "repository": "https://github.com/prakashgarg91/YOUR_REPO_NAME",
+  "repository": "https://github.com/prakashgarg91/rss-telegram-bot",
   "logo": "https://telegram.org/img/t_logo.png",
   "keywords": ["python", "telegram", "bot", "rss", "feed"],
   "env": {
@@ -26,5 +26,6 @@
       "quantity": 1,
       "size": "eco"
     }
-  }
+  },
+  "stack": "heroku-22"
 }
