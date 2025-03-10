@@ -1,2 +1,5 @@
-feedparser==6.0.10
+feedparser==6.0.8
 python-telegram-bot==13.15
+pymongo==4.6.1
+pytz==2023.3
+cgi-tools==0.0.3
